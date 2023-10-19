@@ -99,4 +99,6 @@ const titles = [
 
 //was every book published within the last 100 years?
 
-//print a list of books that "includes" the genre historical
+//print a list of books that "includes" the genre historical\
+const historical = books.forEach(book => (book.genre.includes("historical")));
+console.log(historical);
